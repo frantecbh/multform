@@ -1,9 +1,14 @@
+import { FormProvider } from "./contexts/FromContext"
 import { AppRouter } from "./router"
+
+
 
 
 function App() {
     return (
-        <AppRouter />
+        <FormProvider>
+            <AppRouter />
+        </FormProvider>
     )
 }
 
