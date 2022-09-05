@@ -1,11 +1,18 @@
-import React from 'react'
+import { Theme } from '../../styles/Theme'
 import { Container } from './styles'
 
 
 
 export const FormStep1 = () => {
     return (
-        <div>Step1</div>
+        <Theme>
+
+
+            <Container>
+                Passo1
+            </Container>
+
+        </Theme>
     )
 }
 
